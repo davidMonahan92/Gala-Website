@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700');/*--- Body Font --*/
+
+* {
+    box-sizing: border-box;
+}
+
+.comment-box {
+    padding: 10px 6px 20px 6px;
+    float: left;
+    width: 49%;
+	border-bottom: 5px solid black;
+	margin: 2px;
+	background-color: #e8e8e8;
+	margin-bottom: 10px;
+	
+	text-align: center;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 20px;
+	color: black;
+}
+
+.text-right {
+	text-align: right;
+}
+
+@media screen and (max-width: 769px) {
+	.comment-box {
+		float: left;
+        width: 100%;
+        margin: 2% 0;
+	}
+}
