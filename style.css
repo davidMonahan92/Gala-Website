@@ -1,6 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Merienda:400,700); /*--- Nav Font --*/
-
-@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700');/*--- Body Font --*/
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700');/*--- Body & Nav Font --*/
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');/*--- Heading Font --*/
 
 * {
@@ -102,7 +100,7 @@ nav {
 	margin-top: 2px;
 	background: #000;
     opacity: 0.9;
-	font-family: 'Merienda', cursive;
+	font-family: 'Roboto Mono', monospace, sans-serif;
 }
 
 .nav ul {
