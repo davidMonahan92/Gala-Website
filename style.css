@@ -7,6 +7,11 @@
 	padding: 0;
 }
 
+@font-face {
+	font-family: franchise-bold;
+	src: url("fonts/Franchise-Bold.ttf");
+}
+
 body {
   	background-color: #fff;
 	font-family: 'Roboto Mono', monospace;
@@ -29,6 +34,21 @@ h2, h3, h4 {
 	color: #000;
 	text-transform: uppercase;
 }
+
+#heading-banner {
+	background-color: #CECECE;
+	width: 100%;
+	position: right;
+    margin-bottom: 5%;
+}
+
+#main {
+	font-family: franchise-bold;
+	font-weight: 300;
+	font-size: 65px;
+	color: #fff !important;
+}
+
 
 p {
 	padding: 2%;
@@ -86,8 +106,8 @@ header {
 	padding: 0%;
 	color: #000;
 }
-
 /*--- END HEADER/LOGO/CONTACT --*/
+
 #banner-wrapper {
 	max-width: 1020px;
 	margin: 0 auto;
@@ -799,6 +819,10 @@ footer h3 {
         font-size: 125%;
         letter-spacing: 2px;
     }
+    
+    #main {
+        font-size: 40px;
+    }
 
     .left-col {
         width: 100%;
@@ -966,5 +990,9 @@ footer h3 {
     
     .btn {
         font-size: 125%;
+    }
+    
+    #main {
+        font-size: 25px;
     }
 }
