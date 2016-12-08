@@ -61,7 +61,7 @@ div.icon2 img {
 	padding-bottom: 2%;
 }
 
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 900px){
     .responsive {
         width: 49.99999%;
         margin: 6px 0;
@@ -83,7 +83,7 @@ div.icon2 img {
 	}
 }
 
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 600px){
     .responsive {
         width: 100%;
     }
