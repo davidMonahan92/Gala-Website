@@ -66,9 +66,7 @@ img {
 	max-width: 100%;
 	height: auto;
 }
-.nav-wrap {
-	width: 100%;
-}
+
 #wrapper {
 	margin: 0 auto;
 	max-width: 1120px;
@@ -152,7 +150,7 @@ body .nav .nav-menu li a {
 	display:inline-block;
 	padding:15px 20px;
 	color:#fff;
-	font-size: 18px;
+	font-size: 25px;
 	font-weight: 700;
 }
 
@@ -995,7 +993,4 @@ footer h3 {
         font-size: 125%;
     }
     
-    #main {
-        font-size: 25px;
-    }
 }
