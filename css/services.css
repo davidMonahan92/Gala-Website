@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 div.icon {
     border: 0;
 }
@@ -18,10 +22,6 @@ div.desc {
     text-align: center;
 }
 
-* {
-    box-sizing: border-box;
-}
-
 .responsive {
 	padding-top: 8px;
     padding: 0 6px;
@@ -30,11 +30,11 @@ div.desc {
 }
 
 .responsive2 {
-	
     padding: 0 6px;
     float: left;
     width: 50%;
 }
+
 div.icon2 img {
     height: auto;
 	width: 33%;
@@ -53,6 +53,14 @@ div.icon2 img {
 	-webkit-box-shadow: 0 0 20px rgba(0,0,0,0.5);
 	box-shadow: 0 0 40px rgba(0,0,0,0.5);
 }
+
+.clear:after {
+    content: "";
+    display: table;
+    clear: both;
+	padding-bottom: 2%;
+}
+
 @media only screen and (max-width: 700px){
     .responsive {
         width: 49.99999%;
@@ -88,11 +96,4 @@ div.icon2 img {
 		float: left;
 		padding: 1px 2px;
 	}
-}
-
-.clear:after {
-    content: "";
-    display: table;
-    clear: both;
-	padding-bottom: 2%;
 }
